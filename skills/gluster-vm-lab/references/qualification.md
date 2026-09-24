@@ -90,6 +90,12 @@ readiness and bounded heal convergence on every test volume. Stop the sequence
 on a warning, degraded state, timeout or uncertainty; preserve diagnostics.
 An earlier reboot before the volume existed does not qualify this stage.
 
+Check hostname resolution and management-peer state from every guest. Brick
+heal output can remain quiet while a management peer has lost name resolution.
+A cloud-init system drop-in alone did not preserve hosts entries in one tested
+image whose seed enabled hosts management. Verify the effective configuration
+or template and repeat the reboot; retain the failed and corrected runs.
+
 Set startup/heal time budgets and the expected healthy baseline before the
 test, based on fixture size and observed platform behavior. Poll at a bounded
 interval and retain the last state on timeout; never continue to the next

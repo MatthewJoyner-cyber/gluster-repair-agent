@@ -12,6 +12,7 @@ sequence. Repository names are selected; creation and publication follow accepta
 - [ ] After final fixes, rerun the inventory/privacy checks and scenario suite;
   repeat plugin lifecycle qualification if package behavior or target CLI changes.
   The six-skill install/discovery/update/removal test passed on 2026-09-24.
-- [ ] Review public metadata and the final source snapshot, then make the first
-  commit under the current release authorization. No completed-review tag exists yet.
+- [ ] Review public metadata and the final source snapshot under the current
+  release authorization. The initial commit is recorded; no completed-review
+  tag exists yet.
 Future change details belong in commits. No original ledger is imported.

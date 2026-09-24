@@ -18,6 +18,11 @@ operator-path-mechanical, and independent repair evidence explicitly.
 A direct xattr/index tie is not automatically a durable protocol split-brain.
 A cleanup result or zero heal count does not by itself prove repair value.
 
+Consult the core's `docs/CANARY_CASES.md` for sanitized case references and
+qualification scope. Keep public report, hypothesis and locally reproduced
+result distinct. Record exact runs and evidence paths in the private ledger;
+cite public sources without copying reporters' infrastructure or raw logs.
+
 Before fixture construction, create and write-probe operator-owned state/work
 roots. Create mount parents without sudo so state recording cannot fail after
 fault construction due to root-owned ancestors. Inspect any partially completed
