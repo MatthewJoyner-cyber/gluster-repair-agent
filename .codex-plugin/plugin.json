@@ -1,0 +1,18 @@
+{
+  "name": "gluster-repair-agent",
+  "version": "0.1.0",
+  "description": "Portable, evidence-first Codex skills for the Gluster Repair Tool.",
+  "author": {
+    "name": "Gluster Repair Agent maintainers"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gluster Repair Agent",
+    "shortDescription": "Evidence-first Gluster repair workflows.",
+    "longDescription": "Portable Codex skills for safely reviewing and operating the separately installed Gluster Repair Tool.",
+    "developerName": "Gluster Repair Agent maintainers",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Review evidence and use the Gluster Repair Tool safely."
+  }
+}
