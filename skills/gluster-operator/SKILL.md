@@ -8,6 +8,12 @@ description: Guide evidence-based Gluster repair previews, operator decisions, e
 Identify the user's target and current core version/review status. Check
 current topology, brick roles, heal settings, and affected object identity.
 Inspect the core CLI help rather than inventing wrapper flags.
+Check the installed core's capability report and current compatibility profile
+before suggesting a heal or native split-brain command. At the 2026-09-26 core
+checkpoint, only pending-index heal on Gluster 11.1 has scoped live command
+qualification. Full namespace heal and native per-file resolver writes are
+blocked by the core pending separate live proof. Do not bypass a blocked
+command through a raw Gluster invocation or development canary.
 
 Before suggesting any live repair, read the core's current TODO/review status
 and [core qualification boundary](../../docs/CORE_QUALIFICATION.md). Until its

@@ -10,7 +10,8 @@ these evaluate answers, not just the presence of particular source wording.
 ## How do I use the repair tool?
 
 Expected guidance: identify the installed core version and inspect its current
-help; collect bounded topology, brick-role, heal, and object-identity evidence;
+help and capability report; refuse unqualified heal and native resolver writes;
+collect bounded topology, brick-role, heal, and object-identity evidence;
 build and review a core plan before asking for any write authority; then verify
 the exact result of an authorized run. The companion must use an installed
 bounded helper when one covers the request.

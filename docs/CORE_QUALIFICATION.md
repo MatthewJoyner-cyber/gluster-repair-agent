@@ -18,7 +18,16 @@ guests, Python 3.12.3 and Gluster 11.1:
   entries and ready repair previews with no proposed writes.
 
 These results establish the stated installation, backup and native-heal scope.
-They do not establish repair-apply acceptance. The core still requires:
+They do not establish repair-apply acceptance.
+
+The 2026-09-26 core compatibility profile admits pending-index heal only for
+the tested Gluster 11.1 release. Shared heal dispatch enforces that profile;
+full namespace heal and native per-file split-brain resolver writes are blocked
+until their exact command and response behavior is live-qualified. Other
+Gluster releases need separate version and output evidence. Check the current
+core capability report and compatibility guide before operator instructions.
+
+The core still requires:
 
 - disposable live qualification of saved execution-origin binding, including
   same-name volume recreation and live object changes;

@@ -1,5 +1,16 @@
 # Companion candidate validation
 
+## Core compatibility alignment (2026-09-26)
+
+The operator skill now directs users to the installed core capability report
+and current compatibility profile before suggesting a heal or native resolver
+write. It reflects the core's scoped Gluster 11.1 pending-index qualification
+and the current block on full heal and native resolver writes. The changed skill
+passed format validation; all 26 companion tests, the exact 45-file inventory
+and the external private-identifier scan passed. This is guidance alignment,
+not live command qualification or a new plugin lifecycle test.
+
+
 Six-skill plugin lifecycle passed on 2026-09-24, Codex CLI 0.155.1:
 
 - A disposable local marketplace installed the exact 45-file public candidate.
