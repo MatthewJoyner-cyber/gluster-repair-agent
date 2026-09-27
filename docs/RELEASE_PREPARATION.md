@@ -73,7 +73,7 @@ The original repository and its ledger remain private reference material.
 Read [MIGRATION.md](../MIGRATION.md) for source/state cutover. Final tests may
 require fixes; rerun the checks affected by those changes before publication.
 
-## Companion qualification still open
+## Companion qualification checkpoint
 
 - Reconcile guidance with the core's final reviewed behavior and scope:
   [core qualification](CORE_QUALIFICATION.md).
@@ -88,3 +88,6 @@ require fixes; rerun the checks affected by those changes before publication.
   [private state](PRIVATE_STATE.md).
 
 Use the companion's [TODO](../steering/TODO.md) for the remaining queue.
+The seven-skill package check and fresh-session qualification-skill answer were
+completed on Codex CLI 0.155.1. Recheck affected scenarios if guidance or the
+target CLI changes before publication.
