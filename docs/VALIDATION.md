@@ -2,14 +2,23 @@
 
 ## Major-version qualification skill (2026-09-27)
 
-The package now contains seven skills and 46 public files. The new
-`gluster-version-qualification` skill passed format validation; all 26 local
-tests, exact inventory and current-tree privacy scan passed. It directs a
-focused interface review and bounded lab smoke, while retaining the core's
-exact-version feature gates. Earlier six-skill install/discovery results below
-remain historical evidence; discovery and lifecycle for the seven-skill
-package remain a final companion check. This is guidance validation, not a
-live Gluster qualification.
+The package now contains seven skills and 46 public files. All seven skills
+passed format validation; all 26 local tests, exact inventory and the
+external-identifier privacy scan passed. The new
+`gluster-version-qualification` skill directs a focused interface review and
+bounded lab smoke while retaining the core's exact-version feature gates.
+
+A disposable local marketplace installed the 46-file candidate on Codex CLI
+0.155.1; all 46 installed file hashes matched, and all seven skills were
+present. A fresh read-only session opened the installed qualification skill
+and correctly distinguished native-heal-first, closed feature gates and a
+replica-2 read-only smoke from repair-write qualification. The plugin and
+marketplace were removed. The CLI's marketplace upgrade command rejected the
+local source as non-Git, so the earlier six-skill cachebuster update check
+below remains the update-path evidence on this unchanged CLI. This is guidance
+and packaging validation, not a live Gluster qualification or a claim about
+another Codex version. This result paragraph and the TODO completion note were
+written after staging; neither changed the seven installed skills or adapter.
 
 ## Core compatibility alignment (2026-09-26)
 

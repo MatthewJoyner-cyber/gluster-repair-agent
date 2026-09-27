@@ -30,9 +30,14 @@ The operator resumed release work after the earlier lab pause.
   current release authorization. Signed local review markers now record the
   bounded scope. Publication and public download checks remain in the core's
   first-beta plan.
-- [ ] Validate the new major-version qualification skill and its package
+- [x] Validate the new major-version qualification skill and its package
   inventory, then repeat plugin discovery/lifecycle checks on the final
   companion candidate. Its process must retain the core's exact-version gates
   and use only the focused compatibility evidence requested for a release.
+  Completed 2026-09-27: seven validators, 26 local tests, 46-file inventory,
+  privacy audit, exact installed hashes, fresh-session skill read/answer,
+  install and removal passed on CLI 0.155.1. The prior cachebuster update
+  proof remains applicable because the CLI/adapter did not change; local
+  marketplace `upgrade` is Git-only. See [validation](../docs/VALIDATION.md).
 
 Future change details belong in commits. No original ledger is imported.

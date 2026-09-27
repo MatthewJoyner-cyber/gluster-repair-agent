@@ -21,10 +21,14 @@ not assume that a major number or a passing parser implies safe writes.
 On a disposable lab, use the existing
 [VM qualification workflow](../gluster-vm-lab/SKILL.md) for source hashes,
 install state, evidence and cleanup. Run one healthy-volume read-only smoke.
-For a repair-write claim, reuse one representative existing canary and verify
-the full preview, reviewed apply and independent brick result after normal
-native healing has had its chance. Add another topology only when it is part of
-the claim or addresses a concrete interface concern. Keep unqualified feature
+For a repair-write claim, give normal native healing its chance on an existing
+representative case. If it clears, record that result and the tool's zero-action
+preview. A separate controlled mechanical check may hold healing off on a
+disposable volume while reusing an existing fault builder. Label that result
+operator-seeded; require fresh independent evidence, a reviewed preview and
+backup, one apply, brick verification and restored healing. Add another
+topology only when it is part of the claim or addresses a concrete interface
+concern. Keep unqualified feature
 gates closed; a failed or ambiguous assertion narrows the claim.
 
 Report exact versions, topology, tool commit, evidence class, passed and
