@@ -1,8 +1,7 @@
 # Gluster Repair Agent Companion
 
 Portable skills and a Codex adapter for working with the separately installed
-Gluster Repair Tool. This is a source candidate, not a published or qualified
-autonomous repair agent.
+Gluster Repair Tool. It is an optional guide, not an autonomous repair agent.
 
 The root [plugin manifest](.codex-plugin/plugin.json) packages the six skills
 for reusable Codex distribution. It has no marketplace entry and is not
@@ -34,8 +33,8 @@ dependency, or alternate repair engine. The core runs without it.
 - [HISTORY.md](HISTORY.md): summarized origins of the portable agent workflow.
 - [Source provenance](PROVENANCE.md): public ownership and contribution record.
 - [Validation](docs/VALIDATION.md): completed checks and remaining limits.
-- [Release preparation](docs/RELEASE_PREPARATION.md): local readiness and final
-  pre-push gates. Planned repository destinations are in [MAINTAINERS.md](MAINTAINERS.md).
+- [Release preparation](docs/RELEASE_PREPARATION.md): local readiness and
+  publication gates. Repository destinations are in [MAINTAINERS.md](MAINTAINERS.md).
 - [Scenario checks](docs/SCENARIO_CHECKS.md): source-level checks for repair,
   support-draft, and replica-3 setup questions.
 

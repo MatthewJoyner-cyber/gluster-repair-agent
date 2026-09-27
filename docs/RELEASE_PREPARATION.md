@@ -25,7 +25,8 @@ Before the first companion prerelease:
    requires no maintainer-specific helper or account.
 4. After the core review and companion checks pass, record the matching tested
    core version, create reviewed commits/tags and publish a clearly labelled
-   `v0.1.0-beta.1` prerelease. Invite reviewed metadata-only reports; never
+   `v0.1.0-beta.2` prerelease. The privately staged beta.1 tag marks an earlier
+   candidate. Invite reviewed metadata-only reports; never
    submit reports or upload server file contents automatically.
 
 The operator resumed release work after the earlier lab pause. This plan alone
@@ -33,9 +34,9 @@ does not claim acceptance or open core feature gates.
 
 ## Shared repository preparation
 
-The local candidates are being prepared before the first GitHub push. The
-owner-approved destination names are recorded in [MAINTAINERS.md](../MAINTAINERS.md);
-they are planned destinations, not a claim that either repository is online.
+The separate GitHub destinations are recorded in
+[MAINTAINERS.md](../MAINTAINERS.md). Apply these checks to the exact source
+revision selected for publication or a later prerelease.
 The original repository and its ledger remain private reference material.
 
 ## Local preparation
@@ -53,7 +54,7 @@ The original repository and its ledger remain private reference material.
 - Keep remote creation and push separate from local preparation. The companion
   remains optional; the core must work without its skills or private settings.
 
-## Final pre-push checkpoint
+## Publication checkpoint
 
 1. Complete the first-beta scope above and the core's finite acceptance plan;
    address known serious defects without making optional coverage a blocker.
@@ -65,10 +66,9 @@ The original repository and its ledger remain private reference material.
 4. Create the first completed-review tag only after its remediation is
    implemented and validated. Record the reviewed scope; a tag alone is not
    acceptance of every platform or repair case.
-5. When the owner authorizes publication, create the two empty GitHub
-   repositories, verify each destination, and push only each clean repository's
-   reviewed branch and deliberately selected tags. Recheck cross-repository
-   links once the destinations exist.
+5. Verify both GitHub destinations, push only clean reviewed branches and
+   deliberately selected tags, and check cross-repository and public-download
+   links before announcing the release.
 
 Read [MIGRATION.md](../MIGRATION.md) for source/state cutover. Final tests may
 require fixes; rerun the checks affected by those changes before publication.
