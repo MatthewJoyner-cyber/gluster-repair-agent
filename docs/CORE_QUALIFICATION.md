@@ -26,6 +26,8 @@ full namespace heal and native per-file split-brain resolver writes are blocked
 until their exact command and response behavior is live-qualified. Other
 Gluster releases need separate version and output evidence. Check the current
 core capability report and compatibility guide before operator instructions.
+One 2026-09-27 full-heal command smoke succeeded on a quiet 11.1 lab volume;
+it did not test a pending repair effect and did not open the core gate.
 
 The core still requires:
 
