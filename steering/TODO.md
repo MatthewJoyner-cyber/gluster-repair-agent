@@ -13,16 +13,18 @@ The operator resumed release work after the earlier lab pause.
 - [x] Let the named privacy check accept an external private-identifier file
   (2026-09-24). Preserve caller-relative paths, refuse internal pattern files,
   and test detection without printing private matches; 26 local tests pass.
-- [ ] Review the core's implemented safety fixes within the first-beta scope
-  before qualifying repair-capable guidance.
-  Track the required live/privileged and clean-host work in the core's current
-  TODO and [core qualification boundary](../docs/CORE_QUALIFICATION.md).
+- [x] Review the core's R1-R13 fixes within the first-beta scope. The only
+  live-qualified repair claim is the supervised nonempty missing-replica file
+  path on the recorded Ubuntu/Gluster lab; other recipes remain experimental.
+  See the [core qualification boundary](../docs/CORE_QUALIFICATION.md).
 - [x] Align operator guidance with the core's 2026-09-26 exact-version heal
   gates. The skill directs users to the current capability report and refuses
   unqualified full-heal/native-resolver writes; final core review remains open.
-- [ ] After final fixes, rerun the inventory/privacy checks and scenario suite;
-  repeat plugin lifecycle qualification if package behavior or target CLI changes.
-  The six-skill install/discovery/update/removal test passed on 2026-09-24.
+- [x] After final guidance edits, 45-file inventory, 51 links, 26 local
+  scenario/contract tests, six skill validators, and current-tree/history privacy scans
+  passed. Existing six-skill install/discovery/update/removal evidence from
+  2026-09-24 still applies; skill, adapter and intended CLI behavior did not
+  change in this checkpoint.
 - [ ] Review public metadata and the final source snapshot under the current
   release authorization. The initial commit is recorded; no completed-review
   tag exists yet.
