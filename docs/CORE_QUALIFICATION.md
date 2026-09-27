@@ -29,14 +29,25 @@ core capability report and compatibility guide before operator instructions.
 One 2026-09-27 full-heal command smoke succeeded on a quiet 11.1 lab volume;
 it did not test a pending repair effect and did not open the core gate.
 
-The core still requires:
+Later scoped Ubuntu checks also passed installed refusal for same-name volume
+recreation and same-size/mtime changed data, one empty-file mechanical restore,
+post-repair sequential reboots, installer failure cases, and metadata-only
+workflow/AFR/arbiter/offline-status projection. These are bounded results, not
+qualification of every repair recipe. The core validation record owns details.
 
-- disposable live qualification of saved execution-origin binding, including
-  same-name volume recreation and live object changes;
-- stable repairable fixtures and remaining reboot/failure coverage;
-- intended operator collection coverage for diagnostic metadata schemas; and
-- broader interpreter/distribution and clean-host failure coverage, with
-  supported combinations limited to those actually tested.
+On 2026-09-27 a current-candidate nonempty missing-replica workflow exposed a
+staging ownership defect on its first execution. The core fixed that defect,
+then used a fresh fixture and one new apply run to preserve digest, GFID,
+UID/GID, mode and a user xattr across all three replicas. The failed fixture
+was corrected and the lab returned to a quiet, powered-off state. This is one
+scoped mechanical repair proof, not qualification of every recipe. The core
+still requires final review and freeze checks before any release claim. Its
+`docs/FIRST_BETA_RELEASE_PLAN.md` defines acceptance.
+Full-heal/resolver writes stay disabled; their extra qualification and wider
+platform/schema coverage are follow-up work, not first-beta blockers.
+The public test claim is Ubuntu LTS. Other Linux distributions are untested,
+including SUSE/SLES, openSUSE and RHEL; a supported OS does not by itself prove
+that its Gluster package or this tool is supported on that combination.
 
 Until then, the companion must state that local tests and synthetic evidence do
 not authorize a live repair. It may direct the user to the core's current TODO,

@@ -1,5 +1,38 @@
 # Repository release preparation
 
+## First beta scope (2026-09-27)
+
+The core's `docs/FIRST_BETA_RELEASE_PLAN.md` owns the joint acceptance plan.
+The companion follows the core's declared beta scope; it does not wait for
+every optional core feature or Linux distribution to be qualified. This is a
+best-effort open-source beta with no guarantees, subject to [COPYING](../COPYING).
+The public test claim is the recorded Ubuntu LTS combination. SUSE/SLES,
+openSUSE, RHEL and other distributions remain untested; reports are welcome.
+
+Before the first companion prerelease:
+
+1. Reconcile guidance with the final core feature table. Preserve native healing
+   before tool repair, recognize that a native-healed canary needs no repair,
+   and keep unqualified tool write features disabled. Guidance for separate
+   administrator-approved Gluster operations must distinguish them from the
+   tool's capability gate.
+2. Run the local tests, six-skill/manifest checks and the use-tool, replica-3
+   setup, optional support-draft, native-healed-case and untested-distribution
+   answer scenarios. Repeat plugin lifecycle only if package/adapter behavior
+   or the intended CLI changed since its recorded qualification.
+3. Audit inventory, links, privacy and public Git history. Confirm private
+   steering/ledger setup is optional, stays outside both repositories and
+   requires no maintainer-specific helper or account.
+4. After the core review and companion checks pass, record the matching tested
+   core version, create reviewed commits/tags and publish a clearly labelled
+   `v0.1.0-beta.1` prerelease. Invite reviewed metadata-only reports; never
+   submit reports or upload server file contents automatically.
+
+The operator resumed release work after the earlier lab pause. This plan alone
+does not claim acceptance or open core feature gates.
+
+## Shared repository preparation
+
 The local candidates are being prepared before the first GitHub push. The
 owner-approved destination names are recorded in [MAINTAINERS.md](../MAINTAINERS.md);
 they are planned destinations, not a claim that either repository is online.
@@ -22,7 +55,8 @@ The original repository and its ledger remain private reference material.
 
 ## Final pre-push checkpoint
 
-1. Finish the remaining scoped qualification listed below and address findings.
+1. Complete the first-beta scope above and the core's finite acceptance plan;
+   address known serious defects without making optional coverage a blocker.
 2. Freeze the exact source snapshot; repeat inventory, source notices, privacy,
    local links and relevant tests. Inspect generated files and the Git history
    separately because the source privacy scan excludes `.git`.
