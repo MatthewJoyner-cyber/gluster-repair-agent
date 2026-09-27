@@ -41,8 +41,9 @@ then used a fresh fixture and one new apply run to preserve digest, GFID,
 UID/GID, mode and a user xattr across all three replicas. The failed fixture
 was corrected and the lab returned to a quiet, powered-off state. This is one
 scoped mechanical repair proof, not qualification of every recipe. The core's
-local scope review and source checks passed; its completed-review tag and
-publication checks remain before any public release claim. Its
+local scope review and source checks passed, and a signed completed-review
+tag records that scope. Publication checks remain before any public release
+claim. Its
 `docs/FIRST_BETA_RELEASE_PLAN.md` defines acceptance.
 Full-heal/resolver writes stay disabled; their extra qualification and wider
 platform/schema coverage are follow-up work, not first-beta blockers.

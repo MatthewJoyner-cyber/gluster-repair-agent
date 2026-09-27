@@ -25,7 +25,8 @@ The operator resumed release work after the earlier lab pause.
   passed. Existing six-skill install/discovery/update/removal evidence from
   2026-09-24 still applies; skill, adapter and intended CLI behavior did not
   change in this checkpoint.
-- [ ] Review public metadata and the final source snapshot under the current
-  release authorization. The initial commit is recorded; no completed-review
-  tag exists yet.
+- [x] Review public metadata and the final local source snapshot under the
+  current release authorization. Signed local review markers now record the
+  bounded scope. Publication and public download checks remain in the core's
+  first-beta plan.
 Future change details belong in commits. No original ledger is imported.
