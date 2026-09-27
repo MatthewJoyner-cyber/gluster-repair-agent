@@ -10,6 +10,11 @@ disabled core features and other Linux distributions are post-beta work;
 reports from SUSE/SLES, openSUSE and RHEL are welcome without a test claim.
 The operator resumed release work after the earlier lab pause.
 
+- [x] Publish the matching signed `v0.1.0-beta.3` companion prerelease with
+  the clean core on 2026-09-27. Public API checks confirmed prerelease status
+  and notes; the unauthenticated archive matched all 47 tagged files byte for
+  byte. See [validation](../docs/VALIDATION.md).
+
 - [x] Let the named privacy check accept an external private-identifier file
   (2026-09-24). Preserve caller-relative paths, refuse internal pattern files,
   and test detection without printing private matches; 26 local tests pass.

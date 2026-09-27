@@ -103,8 +103,8 @@ Scoped Ubuntu installation and privileged backup checks passed. One supervised
 nonempty missing-replica repair passed on a disposable Ubuntu 24.04/Gluster
 11.1 lab after a staging defect was fixed; broader recipe and platform
 qualification remain open. These skills preserve the review boundaries and
-cannot make unqualified engine code safe. Final core review and adapter
-compatibility remain release gates.
+cannot make unqualified engine code safe. The first beta's scoped core review
+and adapter checks are recorded in [validation](docs/VALIDATION.md).
 
 The selected copyright holder is listed in [MAINTAINERS.md](MAINTAINERS.md).
 This companion is licensed under [GPL-2.0-only](COPYING). Its provenance record is in

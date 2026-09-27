@@ -1,5 +1,16 @@
 # Companion candidate validation
 
+## First public beta publication (2026-09-27)
+
+Both clean repositories were made public after the scoped review. The signed
+companion `v0.1.0-beta.3` tag points to `d442174` and was published as a
+GitHub prerelease alongside the matching core tag. Unauthenticated GitHub API
+checks confirmed published prerelease metadata and the intended notes; the
+source archive downloaded without credentials matched all 47 tagged files
+byte for byte. This checks publication and distribution, not another Codex
+plugin lifecycle or core repair-write path. A later documentation-only
+publication record on main does not move the release tag.
+
 ## Major-version qualification skill (2026-09-27)
 
 The package now contains seven skills and 46 public files. All seven skills
@@ -108,10 +119,10 @@ SPDX identifiers; the Markdown skills are covered by the root
   At that earlier checkpoint, no repository or public author was configured;
   the local initialization status is recorded above.
 
-This does not establish deployed core compatibility or authority to perform
-live repairs. Release qualification remains on the companion TODO.
+The earlier local checks alone did not establish deployed core compatibility
+or authority to perform live repairs. The first beta's later scoped checks and
+limits are recorded above and in the matching core release notes.
 
 No personal Codex configuration, SSH keys, trust database, memories, or private
-operational ledger is included. The clean repositories have been pushed to
-private GitHub destinations; public visibility and prerelease publication
-remain separate steps.
+operational ledger is included. The clean repositories and their matching
+beta.3 prereleases are public; private operational records remain outside them.
