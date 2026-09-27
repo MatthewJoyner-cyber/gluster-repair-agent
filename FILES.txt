@@ -43,3 +43,4 @@ skills/gluster-vm-lab/SKILL.md
 skills/gluster-vm-lab/references/provisioning.md
 skills/gluster-vm-lab/references/qualification.md
 skills/gluster-vm-lab/references/development.md
+skills/gluster-version-qualification/SKILL.md

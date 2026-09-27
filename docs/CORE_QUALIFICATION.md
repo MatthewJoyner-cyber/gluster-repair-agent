@@ -26,8 +26,10 @@ full namespace heal and native per-file split-brain resolver writes are blocked
 until their exact command and response behavior is live-qualified. Other
 Gluster releases need separate version and output evidence. Check the current
 core capability report and compatibility guide before operator instructions.
-One 2026-09-27 full-heal command smoke succeeded on a quiet 11.1 lab volume;
-it did not test a pending repair effect and did not open the core gate.
+Later 2026-09-27 full-heal commands succeeded on a quiet 11.1 lab volume and
+one with a pending row. The latter copies converged, but concurrent native
+healing leaves the command's repair effect unproved. Neither observation
+opened the core's full-heal gate.
 
 Later scoped Ubuntu checks also passed installed refusal for same-name volume
 recreation and same-size/mtime changed data, one empty-file mechanical restore,
@@ -45,6 +47,10 @@ local scope review and source checks passed, and a signed completed-review
 tag records that scope. Publication checks remain before any public release
 claim. Its
 `docs/FIRST_BETA_RELEASE_PLAN.md` defines acceptance.
+Later operator-seeded ghost-handle and two-stage directory/mdata repair cycles
+on the same 11.1 lab both ended with zero-action previews. They add scoped
+compatibility evidence, but do not expand the beta's advertised repair-write
+scope or prove either fault occurs naturally on 11.1.
 Full-heal/resolver writes stay disabled; their extra qualification and wider
 platform/schema coverage are follow-up work, not first-beta blockers.
 The public test claim is Ubuntu LTS. Other Linux distributions are untested,

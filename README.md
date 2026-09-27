@@ -3,7 +3,7 @@
 Portable skills and a Codex adapter for working with the separately installed
 Gluster Repair Tool. It is an optional guide, not an autonomous repair agent.
 
-The root [plugin manifest](.codex-plugin/plugin.json) packages the six skills
+The root [plugin manifest](.codex-plugin/plugin.json) packages the seven skills
 for reusable Codex distribution. It has no marketplace entry and is not
 installed by this source tree. Local discovery can instead use a selected skill
 directory under `.agents/skills/` in a repository or `$HOME/.agents/skills/`.
@@ -17,6 +17,8 @@ dependency, or alternate repair engine. The core runs without it.
 - skills/: focused maintainer, operator, triage, canary, setup and VM lab instructions.
 - [VM playground and qualification](skills/gluster-vm-lab/SKILL.md): reusable
   developer/tester environments, fresh-install tests, checkpoints and retention.
+- [Gluster major-version qualification](skills/gluster-version-qualification/SKILL.md):
+  focused interface review and bounded compatibility evidence for a new release.
 - adapters/codex/: discovery and installation guidance.
 - scripts/: private-directory initialization, candidate privacy audit, and
   bounded source/candidate helper commands.
@@ -26,7 +28,7 @@ dependency, or alternate repair engine. The core runs without it.
   use, and support-case boundaries.
 - [Core qualification boundary](docs/CORE_QUALIFICATION.md): what the
   companion cannot claim until the separately installed engine is qualified.
-- .codex-plugin/plugin.json: portable plugin metadata for the six skills.
+- .codex-plugin/plugin.json: portable plugin metadata for the seven skills.
 - templates/: blank private steering and operational ledger documents.
 - steering/TODO.md: companion-specific release work.
 - MIGRATION.md: separation, cutover, and commit-history rules.

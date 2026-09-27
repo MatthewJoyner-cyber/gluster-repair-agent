@@ -30,4 +30,9 @@ The operator resumed release work after the earlier lab pause.
   current release authorization. Signed local review markers now record the
   bounded scope. Publication and public download checks remain in the core's
   first-beta plan.
+- [ ] Validate the new major-version qualification skill and its package
+  inventory, then repeat plugin discovery/lifecycle checks on the final
+  companion candidate. Its process must retain the core's exact-version gates
+  and use only the focused compatibility evidence requested for a release.
+
 Future change details belong in commits. No original ledger is imported.

@@ -1,5 +1,16 @@
 # Companion candidate validation
 
+## Major-version qualification skill (2026-09-27)
+
+The package now contains seven skills and 46 public files. The new
+`gluster-version-qualification` skill passed format validation; all 26 local
+tests, exact inventory and current-tree privacy scan passed. It directs a
+focused interface review and bounded lab smoke, while retaining the core's
+exact-version feature gates. Earlier six-skill install/discovery results below
+remain historical evidence; discovery and lifecycle for the seven-skill
+package remain a final companion check. This is guidance validation, not a
+live Gluster qualification.
+
 ## Core compatibility alignment (2026-09-26)
 
 The operator skill now directs users to the installed core capability report
@@ -92,4 +103,6 @@ This does not establish deployed core compatibility or authority to perform
 live repairs. Release qualification remains on the companion TODO.
 
 No personal Codex configuration, SSH keys, trust database, memories, or private
-operational ledger is included. Nothing has been pushed or published.
+operational ledger is included. The clean repositories have been pushed to
+private GitHub destinations; public visibility and prerelease publication
+remain separate steps.

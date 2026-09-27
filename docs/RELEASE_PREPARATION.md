@@ -16,7 +16,7 @@ Before the first companion prerelease:
    and keep unqualified tool write features disabled. Guidance for separate
    administrator-approved Gluster operations must distinguish them from the
    tool's capability gate.
-2. Run the local tests, six-skill/manifest checks and the use-tool, replica-3
+2. Run the local tests, seven-skill/manifest checks and the use-tool, replica-3
    setup, optional support-draft, native-healed-case and untested-distribution
    answer scenarios. Repeat plugin lifecycle only if package/adapter behavior
    or the intended CLI changed since its recorded qualification.
@@ -79,7 +79,7 @@ require fixes; rerun the checks affected by those changes before publication.
   [core qualification](CORE_QUALIFICATION.md).
 - Repeat source-level repair, support-draft and replica-3 setup scenarios after
   any guidance changes: [scenario checks](SCENARIO_CHECKS.md).
-- Verify all six skills and the plugin manifest, and repeat the disposable plugin
+- Verify all seven skills and the plugin manifest, and repeat the disposable plugin
   lifecycle on the intended release CLI if the adapter or target CLI changes.
   The existing tested version and lifecycle result are in
   [VALIDATION.md](VALIDATION.md).
