@@ -25,8 +25,9 @@ Before the first companion prerelease:
    requires no maintainer-specific helper or account.
 4. After the core review and companion checks pass, record the matching tested
    core version, create reviewed commits/tags and publish a clearly labelled
-   `v0.1.0-beta.2` prerelease. The privately staged beta.1 tag marks an earlier
-   candidate. Invite reviewed metadata-only reports; never
+   `v0.1.0-beta.3` prerelease. The beta.1 and beta.2 tags mark earlier private
+   candidates. The plugin uses the base version 0.1.0; the Git tag identifies
+   the prerelease candidate. Invite reviewed metadata-only reports; never
    submit reports or upload server file contents automatically.
 
 The operator resumed release work after the earlier lab pause. This plan alone

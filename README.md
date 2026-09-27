@@ -11,6 +11,8 @@ directory under `.agents/skills/` in a repository or `$HOME/.agents/skills/`.
 The companion contains guidance, private-file templates, and a local privacy
 audit. It has no cluster credentials, hardcoded host inventory, private helper
 dependency, or alternate repair engine. The core runs without it.
+Read the [beta.3 release notes](docs/RELEASE_NOTES_v0.1.0-beta.3.md) for the
+matching core release and qualification limits.
 
 ## Layout
 

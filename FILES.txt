@@ -39,6 +39,7 @@ tests/test_check_candidate.py
 tests/test_skill_contracts.py
 FILES.txt
 docs/RELEASE_PREPARATION.md
+docs/RELEASE_NOTES_v0.1.0-beta.3.md
 skills/gluster-vm-lab/SKILL.md
 skills/gluster-vm-lab/references/provisioning.md
 skills/gluster-vm-lab/references/qualification.md
